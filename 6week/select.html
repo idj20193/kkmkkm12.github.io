@@ -1,0 +1,37 @@
+<html>
+<head>
+<script language = "javascript"> 
+function showSub(obj) {
+    f = document.forms.select_machine;
+    if(obj == 1) {
+        f.SUB1.style.display = "";
+        f.SUB2.style.display = "";
+    } else {
+        f.SUB1.style.display = "none";
+        f.SUB2.style.display = "none";
+     }
+}
+</script>
+</head>
+<body>
+<form name="select_machine">
+삼성
+<br><br>
+모델
+<select name="SUB1" style="display: ;">
+<option value=" ">핸드폰</option>
+<option value=" ">갤럭시 폴더</option>
+<option value=" ">갤럭시 노트</option>
+<option value=" ">갤럭시 S</option>
+<option value=" ">갤럭시 S+</option>
+</select>
+
+<select name="SUB2" style="display: ;">
+<option value=" ">노트북</option>
+<option value=" ">SPC 5800</option>
+<option value=" ">2015 Edition</option>
+<option value=" ">삼성 노트북 펜S</option>
+</select>
+</form>
+</body>
+</html>
